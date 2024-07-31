@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project features Python scripts for analyzing and visualizing text data using famous approaches from linguistics.
-It includes various visualizations such as bar plots, histograms, pie charts, treemaps, violin plots, and word clouds.
-The scripts leverage libraries such as matplotlib, seaborn, wordcloud, spacy, and textblob to generate insightful visualizations and perform text analysis while logging everything.
+Welcome to the **NLP Data Visualization** project! This repository contains a collection of Python scripts designed to help you analyze and visualize text data in various ways. Each script focuses on a specific type of analysis or visualization, providing a comprehensive toolkit for text data exploration.
+
+This project utilizes a range of powerful Python libraries such as matplotlib, seaborn, wordcloud, spacy, and textblob to perform tasks like frequency analysis, sentiment analysis, and parts of speech tagging. The resulting visualizations, including bar plots, histograms, pie charts, treemaps, violin plots, and word clouds, offer clear and insightful representations of the underlying data.
 
 
 This project includes:
