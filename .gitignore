@@ -30,6 +30,12 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+#Python log files
+logs
+
+#Sample files
+sample
+
 # Virtualenv
 .venv/
 venv/
