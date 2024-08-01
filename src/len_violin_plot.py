@@ -53,13 +53,10 @@ def get_length_list(mails):
 def get_violin_plot(destination, data, column_name, title=None, color='Yellow'):
     try:
         data_df = DataFrame(data=data, columns=[column_name])
-
         plt.figure(figsize=(10, 6))
         violinplot(x=column_name, data=data_df, color=color)
         plt.xlabel(column_name)
-        if title:
-            plt.title(title, fontweight = "bold")
-        
+        plt.title(title, fontweight = "bold")
         plt.savefig(destination)
         logger.info(f"Graph created in {destination}")
 
