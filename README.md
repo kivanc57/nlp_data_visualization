@@ -1,6 +1,6 @@
-# NLP Analysis Tools
+# NLP Analysis Tools 
 
-## Overview
+## Overview 🌈
 
 Welcome to the **NLP Data Visualization** project! This repository contains a collection of Python scripts designed to help you analyze and visualize text data in various ways. Each script focuses on a specific type of analysis or visualization, providing a comprehensive toolkit for text data exploration.
 
@@ -8,11 +8,14 @@ This project utilizes a range of powerful Python libraries such as matplotlib, s
 
 
 This project includes:
-* **Well-known Data Science libraries**: `matplotlib`, `seaborn`, `wordcloud`, `spacy`, `textblob`
-* **Colorful visualizations**: `bar plots`, `histograms`, `pie charts`, `treemaps`, `violin plots`, `word clouds`
-  * Each graph is crafted by inspiration from its own document and its function is left open to configure freely.
-* **Creative file handlings (writings+readings), tailored for large datasets**: `txt`, `xml`, `json`, `xlsx`, `csv`, `sgm`
-* *Each* scripts is a combination from one of these bulletpoints!
+* 🌍**Well-known Data Science libraries**🌍
+  * Some them are: `matplotlib`, `seaborn`, `wordcloud`, `spacy`, `textblob`
+
+* 💐**Colorful visualizations**💐
+  * Each graph is crafted by inspiration from its own document and its function is left open to configure freely. The graphs are: `bar plots`, `histograms`, `pie charts`, `treemaps`, `violin plots`, `word clouds`
+* ✨**Creative file handlings (writings+readings), tailored for large datasets**✨
+  *These are: `txt`, `xml`, `json`, `xlsx`, `csv`, `sgm`
+* 🍄 *Each* scripts is a combination from one of these bulletpoints!
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -35,12 +38,17 @@ This project includes:
 This repository contains Python scripts designed for text data analysis and visualization. Each script focuses on a specific type of analysis or visualization, allowing users to gain insights into text data through various methods.
 
 ## 2. Features <a name="features"></a>
-* **Comprehensive Text Analysis**: Perform sentiment analysis, frequency analysis, and more.
-* **Diverse Visualizations**: Generate bar plots, histograms, pie charts, treemaps, violin plots, and word clouds.
-* **Library Utilization**: Utilizes powerful Python libraries such as matplotlib, seaborn, wordcloud, spacy, and textblob.
-* **Easy to Use**: Scripts are designed to be easily run from the command line.
-* **Configurable**: Input and output paths can be easily configured for different datasets.
-* **Logging**: Each script includes logging to track the execution process and capture errors.
+🧬 **Comprehensive Text Analysis** 🧬 -> Perform sentiment analysis, frequency analysis, and more.
+
+🔮 **Diverse Visualizations** 🔮 -> Generate bar plots, histograms, pie charts, treemaps, violin plots, and word clouds.
+
+ 🌋 **Library Utilization** 🌋 -> Utilizes powerful Python libraries such as matplotlib, seaborn, wordcloud, spacy, and textblob.
+
+🧮 **Easy to Use** 🧮 -> Scripts are designed to be easily run from the command line.
+
+⛓ **Configurable** ⛓ -> Input and output paths can be easily configured for different datasets.
+
+☎️ **Logging** ☎️ -> Each script includes logging to track the execution process and capture errors.
 
 ## 3. Project Structure <a name="project_structure"></a>
 
