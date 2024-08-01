@@ -66,8 +66,7 @@ def get_bar_plot(destination, frequency_dict, x_name, y_name, top_n=10, title=No
         barplot(x=x_name, y=y_name, data=df_sorted, palette=palette, hue=x_name, legend=False)
         plt.xlabel = x_name
         plt.ylabel = y_name
-        if title:
-            plt.title(title, fontweight = "bold")
+        plt.title(title, fontweight = "bold")
 
         plt.savefig(destination)
         logger.info(f"Graph created in {destination}")
