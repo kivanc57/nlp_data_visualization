@@ -80,8 +80,7 @@ def get_pie_chart(destination, sentiments_categorized, title=None, graph_name='p
             shadow=True,
             startangle=90
             )
-        if title:
-            plt.title(title, fontweight = "bold")
+        plt.title(title, fontweight = "bold")
         plt.savefig(destination)
         logger.info(f"Pie chart: {graph_name} created in {destination}")
     
