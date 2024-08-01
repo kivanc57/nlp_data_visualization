@@ -35,11 +35,11 @@ This project includes:
 7. [License](#license)
 8. [Contact](#contact)
 
-## 1. Introduction <a name="introduction"></a>
+## 1. Introduction <a id="introduction"></a>
 
 This repository contains Python scripts designed for text data analysis and visualization. Each script focuses on a specific type of analysis or visualization, allowing users to gain insights into text data through various methods.
 
-## 2. Features <a name="features"></a>
+## 2. Features <a id="features"></a>
 🧬 **Comprehensive Text Analysis** 🧬 -> Perform sentiment analysis, frequency analysis, and more.
 
 🔮 **Diverse Visualizations** 🔮 -> Generate bar plots, histograms, pie charts, treemaps, violin plots, and word clouds.
@@ -52,7 +52,8 @@ This repository contains Python scripts designed for text data analysis and visu
 
 ☎️ **Logging** ☎️ -> Each script includes logging to track the execution process and capture errors.
 
-## 3. Project Structure <a name="project_structure"></a>
+
+## 3. Project Structure <a id="project_structure"></a>
 
 ```
 📁 project-root
@@ -106,9 +107,9 @@ This repository contains Python scripts designed for text data analysis and visu
 
 **main.py**: In our case, giving the complexity of tasks, input and outputs of each task, this file is left *empty*. Please consult each script separately.
 
-## 4. Visualizations <a name="visualizations"></a>
+## 4. Visualizations <a id="visualizations"></a>
 
-### Bar Plot <a name="bar_plot"></a>
+### Bar Plot <a id="bar_plot"></a>
 The bar plot visualizes the frequency of specific entities or attributes. The script `freq_barplot.py` is used to create a bar plot of the most frequent parts of speech (verbs, subjects, and objects).
 ![Bar Plot](/screenshots/bar_plot.png?raw=true)
 ```python
@@ -131,7 +132,7 @@ def get_bar_plot(destination, frequency_dict, x_name, y_name, top_n=10, title=No
         logger.exception(f"Graph failed: {e} in {destination}")
 ```
 
-### Histogram <a name="histogram"></a>
+### Histogram <a id="histogram"></a>
 The histogram displays the distribution of numerical data. The script `len_histogram.py` generates a histogram showing the distribution of sentence lengths.
 ![Histogram](/screenshots/histogram.png?raw=true)
 
@@ -153,7 +154,7 @@ def get_histogram(data, destination, color = 'red', bins=20,
         return None
 ```
 
-### Piechart <a name="pie_chart"></a>
+### Piechart <a id="pie_chart"></a>
 The pie chart shows the proportion of different categories within a dataset. The script `sentiment_pychart.py` creates a pie chart of sentiment distribution.
 ![Piechart](/screenshots/pie_chart.png?raw=true)
 
@@ -180,7 +181,7 @@ def get_pie_chart(destination, sentiments_categorized, title=None, graph_name='p
         return None
 ```
 
-### Treemap <a name="treemap"></a>
+### Treemap <a id="treemap"></a>
 The treemap provides a hierarchical view of data with nested rectangles. The script `entity_treemap.py` generates a treemap visualization based on XML file content.
 ![Treemap](/screenshots/treemap.png?raw=true)
 
@@ -199,7 +200,7 @@ def get_treemap(destination, entity_dict, title='Distribution of Entity Labels')
     except Exception as e:
         logger.exception(f"Treemap failed: {e} in {destination}")
 ```
-### Violin Plot <a name="violin_plot"></a>
+### Violin Plot <a id="violin_plot"></a>
 The violin plot shows data distribution across several categories. The script `len_violin.py` generates a violin plot of email lengths.
 ![Violin Plot](/screenshots/violin_plot.png?raw=true)
 
@@ -220,7 +221,7 @@ def get_violin_plot(destination, data, column_name, title=None, color='Yellow'):
     except Exception as e:
         logger.exception(f"Graph failed: {e} in {destination}")
 ```
-### Word Cloud <a name="word_cloud"></a>
+### Word Cloud <a id="word_cloud"></a>
 The word cloud visualizes the frequency of words in a text. The script `pos_cloud.py` creates a word cloud of the most frequent verbs.
 ![Violin Plot](/screenshots/word_cloud.png?raw=true)
 
@@ -245,10 +246,10 @@ def get_word_cloud(destination, word_counts, title=None):
         logger.exception(f"Failed graph: {e} in {destination}")
 ```
 
-## 5. Data Analysis <a name="data_analysis"></a>
+## 5. Data Analysis <a id="data_analysis"></a>
 The scripts included in this project analyze text data by performing tasks such as frequency analysis, sentiment analysis, and length distribution analysis. They generate visualizations that help in understanding the underlying patterns and characteristics of the text data.
 
-## 6. Usage <a name="usage"></a>
+## 6. Usage <a id="usage"></a>
 1. Ensure you have Python 3.x installed.
 
 2. Install the required libraries and instances when needed.
@@ -264,10 +265,10 @@ python pos_cloud.py
 
 ```
 
-## 7. License <a name="license"></a>
+## 7. License <a id="license"></a>
 This project is licensed under the GNU General Public License v3.0 (GPL-3.0) - see the [LICENSE](https://github.com/kivanc57/nlp_data_visualization/blob/main/LICENSE) file for details.
 
-## 8. Contact <a name="contact"></a>
+## 8. Contact <a id="contact"></a>
 Let me know if there are any specific details you’d like to adjust or additional sections you want to include!
 
 * **Email**: kivancgordu@hotmail.com
