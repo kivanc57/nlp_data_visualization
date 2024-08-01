@@ -91,7 +91,7 @@ This repository contains Python scripts designed for text data analysis and visu
 | Script | Description | Input File | Ouput File | Graph |
 | ----------- | -------|---- |-------|--------------|
 | freq_barplot.py |  Generates frequency bar plots from XML data.| xml | txt | Bar Plot |
-| len_histogram.py | Creates histograms of sentence lengths from text files. | txt | - | histogram |
+| len_histogram.py | Creates histograms of sentence lengths from text files. | txt | - | Histogram |
 | sentiment_piechart.py | Generates pie charts based on sentiment analysis from text data. | sgm | - | Pie Chart |
 | entity_treemap.py | Categorizes entities and build treemaps from XML data using them. | xml | json | Tree Map |
 | len_violin_plot.py | Visualizes the length of email addresses using violin plots. | txt | xlsx | Violin Plot |
