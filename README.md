@@ -1,6 +1,6 @@
 # NLP Analysis Tools 
 
-## Overview 🌈
+## Overview 🌈 
 
 Welcome to the **NLP Data Visualization** project! This repository contains a collection of Python scripts designed to help you analyze and visualize text data in various ways. Each script focuses on a specific type of analysis or visualization, providing a comprehensive toolkit for text data exploration.
 
