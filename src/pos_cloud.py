@@ -103,9 +103,7 @@ def get_word_cloud(destination, word_counts, title=None):
         plt.figure(figsize=(12, 6))
         plt.imshow(wordcloud, interpolation='bilinear')
         plt.axis('off')
-        if title:
-            plt.title(title, fontweight = "bold")
-
+        plt.title(title, fontweight = "bold")
         plt.savefig(destination)
         logger.info(f"Graph created in {destination}")
 
