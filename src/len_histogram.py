@@ -42,8 +42,7 @@ def get_histogram(data, destination, color = 'red', bins=20,
         plt.hist(data, edgecolor='black', histtype='bar', bins=bins, color=color, alpha=0.7, density=1)
         plt.xlabel(x_label)
         plt.ylabel(y_label)
-        if title:
-            plt.title("Distribution of Sentence Lengths", fontweight = "bold")
+        plt.title("Distribution of Sentence Lengths", fontweight = "bold")
         plt.savefig(destination)
         logger.info(f"Graph: {graph_name} created in {destination}")
 
