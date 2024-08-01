@@ -8,13 +8,15 @@ This project utilizes a range of powerful Python libraries such as matplotlib, s
 
 
 This project includes:
-* 🌍**Well-known Data Science libraries**🌍
+* 🌍 **Well-known Data Science libraries** 🌍
   * Some them are: `matplotlib`, `seaborn`, `wordcloud`, `spacy`, `textblob`
 
-* 💐**Colorful visualizations**💐
+* 💐 **Colorful visualizations** 💐
   * Each graph is crafted by inspiration from its own document and its function is left open to configure freely. The graphs are: `bar plots`, `histograms`, `pie charts`, `treemaps`, `violin plots`, `word clouds`
-* ✨**Creative file handlings (writings+readings), tailored for large datasets**✨
-  *These are: `txt`, `xml`, `json`, `xlsx`, `csv`, `sgm`
+
+* ✨ **Creative file handlings (writings+readings), tailored for large datasets** ✨
+  * These are: `txt`, `xml`, `json`, `xlsx`, `csv`, `sgm`
+
 * 🍄 *Each* scripts is a combination from one of these bulletpoints!
 
 ## Table of Contents
