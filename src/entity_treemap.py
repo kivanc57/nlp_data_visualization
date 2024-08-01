@@ -83,8 +83,7 @@ def get_treemap(destination, entity_dict, title='Distribution of Entity Labels')
         frequencies = list(entity_dict.values())
         squarify.plot(sizes=frequencies, label=labels, color=color_palette("Spectral", len(labels)), alpha=0.7, pad=2)
 
-        if title:
-            plt.title(title, fontweight = "bold")
+        plt.title(title, fontweight = "bold")
         plt.savefig(destination)
         logger.info(f"Treemap created in {destination}")
 
