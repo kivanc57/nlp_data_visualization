@@ -23,7 +23,7 @@ This project includes:
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Project Structure](#project_structure)
-4. [Visualizations](#scripts)
+4. [Visualizations](#visualizations)
   * [Bar Plot](#bar_plot)
   * [Histrogram](#histogram)
   * [Pie Chart](#pie_chart)
