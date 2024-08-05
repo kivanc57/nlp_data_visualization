@@ -85,6 +85,7 @@ def get_treemap(destination, entity_dict, title='Distribution of Entity Labels')
 
         plt.title(title, fontweight = "bold")
         plt.savefig(destination)
+        plt.close()
         logger.info(f"Treemap created in {destination}")
 
     except Exception as e:
