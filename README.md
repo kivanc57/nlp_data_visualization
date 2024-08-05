@@ -127,6 +127,7 @@ def get_bar_plot(destination, frequency_dict, x_name, y_name, top_n=10, title=No
             plt.title(title, fontweight = "bold")
 
         plt.savefig(destination)
+        plt.close()
         logger.info(f"Graph created in {destination}")
 
     except Exception as e:
@@ -149,6 +150,7 @@ def get_histogram(data, destination, color = 'red', bins=20,
         if title:
             plt.title("Distribution of Sentence Lengths", fontweight = "bold")
         plt.savefig(destination)
+        plt.close()
         logger.info(f"Graph: {graph_name} created in {destination}")
 
     except Exception as e:
@@ -177,6 +179,7 @@ def get_pie_chart(destination, sentiments_categorized, title=None, graph_name='p
         if title:
             plt.title(title, fontweight = "bold")
         plt.savefig(destination)
+        plt.close()
         logger.info(f"Pie chart: {graph_name} created in {destination}")
     
     except Exception as e:
@@ -199,6 +202,7 @@ def get_treemap(destination, entity_dict, title='Distribution of Entity Labels')
         if title:
             plt.title(title, fontweight = "bold")
         plt.savefig(destination)
+        plt.close()
         logger.info(f"Treemap created in {destination}")
 
     except Exception as e:
@@ -221,6 +225,7 @@ def get_violin_plot(destination, data, column_name, title=None, color='Yellow'):
             plt.title(title, fontweight = "bold")
         
         plt.savefig(destination)
+        plt.close()
         logger.info(f"Graph created in {destination}")
 
     except Exception as e:
@@ -246,6 +251,7 @@ def get_word_cloud(destination, word_counts, title=None):
             plt.title(title, fontweight = "bold")
 
         plt.savefig(destination)
+        plt.close()
         logger.info(f"Graph created in {destination}")
 
     except Exception as e:
