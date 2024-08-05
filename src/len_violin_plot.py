@@ -58,6 +58,7 @@ def get_violin_plot(destination, data, column_name, title=None, color='Yellow'):
         plt.xlabel(column_name)
         plt.title(title, fontweight = "bold")
         plt.savefig(destination)
+        plt.close()
         logger.info(f"Graph created in {destination}")
 
     except Exception as e:
