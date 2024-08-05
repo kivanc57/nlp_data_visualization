@@ -69,6 +69,7 @@ def get_bar_plot(destination, frequency_dict, x_name, y_name, top_n=10, title=No
         plt.title(title, fontweight = "bold")
 
         plt.savefig(destination)
+        plt.close()
         logger.info(f"Graph created in {destination}")
 
     except Exception as e:
