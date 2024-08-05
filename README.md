@@ -55,7 +55,7 @@ This repository contains Python scripts designed for text data analysis and visu
 
 ## 3. Project Structure <a id="project_structure"></a>
 
-```
+```markdown
 📁 project-root
 ├── 📁 config
 │ ├── 📄 __init__.py
