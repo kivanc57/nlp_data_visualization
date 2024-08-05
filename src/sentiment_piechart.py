@@ -82,6 +82,7 @@ def get_pie_chart(destination, sentiments_categorized, title=None, graph_name='p
             )
         plt.title(title, fontweight = "bold")
         plt.savefig(destination)
+        plt.close()
         logger.info(f"Pie chart: {graph_name} created in {destination}")
     
     except Exception as e:
