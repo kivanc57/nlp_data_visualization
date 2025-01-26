@@ -2,7 +2,6 @@ from xml.etree.ElementTree import iterparse
 from json import dump
 from spacy import load
 from seaborn import color_palette
-from spacy.lang.en.stop_words import STOP_WORDS
 import matplotlib.pyplot as  plt
 import squarify
 import logging
