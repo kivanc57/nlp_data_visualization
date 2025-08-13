@@ -2,6 +2,8 @@
 __pycache__/
 *.pyc
 
+docker-compose.yml
+
 venv/
 myenv/
 
