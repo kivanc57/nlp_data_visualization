@@ -1,0 +1,15 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+venv/
+myenv/
+
+logs/
+data/
+presentation/
+screenshots/
+
+.git
+.gitignore
+
