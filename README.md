@@ -75,7 +75,6 @@ This repository contains Python scripts designed for text data analysis and visu
 │    ...
 │
 ├── 📄 .gitignore
-├── 📄 .gitattributes
 └── 📄 main.py
 ```
 
