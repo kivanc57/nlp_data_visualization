@@ -171,7 +171,7 @@ csv, json, logging, seaborn, squarify, matplotlib, wordcloud, textblob
 <div>
 
 ### nlp
-- endustry standard
+- industry standard
 - newer, robust and *deep learning* accompanied
 - fast & efficient
 - easy-to-learn
